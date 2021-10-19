@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-color: #f5c6a5;
+}
+.head {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 10px;
+  color: #852747;
+}
+.periodic-table {
+  display: grid;
+  position: relative;
+  grid-template-columns: 1fr;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
+}
+.periodic-table .periodicElementFirst {
+  background-color: #b4dc96;
+}
+.periodic-table .periodicElementSecond {
+  background-color: #e61e50;
+}
+.periodic-table .periodicElementThird {
+  background-color: #149b5f;
+}
+.periodic-table .periodicElementFourth {
+  background-color: #0f69af;
+}
+.periodic-table .periodicElementFifth {
+  background-color: #ffc832;
+}
+.periodic-table .periodicElementSixth {
+  background-color: #2dbecd;
+}
+.periodic-table .periodicElementSeventh {
+  background-color: #503291;
+}
+.periodic-table .periodicElementEighth {
+  background-color: #eb3c96;
+}
+.periodic-table .periodicElementNinth {
+  background-color: #e1c3cd;
+}
+.title {
+  font-size: 10px;
+}
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.emptySpace1 .emptySpace2 {
+  display: none;
+}
+
+@media (min-width: 576px) {
+  .head {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 70px);
+    grid-template-rows: repeat(7, 60px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .emptySpace1 {
+    grid-column: 2/18;
+  }
+  .emptySpace2 {
+    grid-column: 3/13;
+  }
+}
