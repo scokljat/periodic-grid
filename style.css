@@ -16,47 +16,47 @@ body {
   justify-content: center;
   margin-top: 30px;
 }
-.periodic-table .periodicElementFirst {
+.periodic-table .nonmetal {
   background-color: #b4dc96;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementSecond {
+.periodic-table .nobleGas {
   background-color: #e61e50;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementThird {
+.periodic-table .alkali {
   background-color: #149b5f;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementFourth {
+.periodic-table .earthMetal {
   background-color: #0f69af;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementFifth {
+.periodic-table .metalloid {
   background-color: #ffc832;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementSixth {
+.periodic-table .postTransition {
   background-color: #2dbecd;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementSeventh {
+.periodic-table .transitionMetal {
   background-color: #503291;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementEighth {
+.periodic-table .lanthanide {
   background-color: #eb3c96;
   display: flex;
   justify-content: center;
 }
-.periodic-table .periodicElementNinth {
+.periodic-table .actinide {
   background-color: #e1c3cd;
   display: flex;
   justify-content: center;
