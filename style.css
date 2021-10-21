@@ -77,22 +77,32 @@ body {
 .emptySpace3 {
   display: none;
 }
-
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .head {
     font-size: 40px;
     text-align: center;
     padding-top: 10px;
+    margin-bottom: 30px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
   }
   .periodic-table {
     display: grid;
-    grid-template-columns: repeat(18, 70px);
-    grid-template-rows: repeat(9, 60px);
-    gap: 10px;
+    grid-template-columns: repeat(18, 40px);
+    grid-template-rows: repeat(9, 40px);
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    gap: 3px;
   }
 
+  .title {
+    font-size: 5px;
+  }
   .emptySpace1 {
     grid-column: 2/18;
     display: block;
@@ -104,5 +114,13 @@ body {
   .emptySpace3 {
     grid-column: 1/4;
     display: block;
+  }
+}
+@media (min-width: 1024px) {
+  .periodic-table {
+    grid-template-columns: repeat(18, 50px);
+    grid-template-rows: repeat(9, 50px);
+    gap: 5px;
+    margin-top: 10px;
   }
 }
